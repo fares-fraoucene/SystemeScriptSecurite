@@ -2,7 +2,7 @@
 
 current_date=$(date +%Y-%m-%d_%H:%M)
 
-backup_file="backup_$current_date.tar.gz"
+backup_file="backup_$current_date.tar"
 
 source_directory="Plateforme"
 
