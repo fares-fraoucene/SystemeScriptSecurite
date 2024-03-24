@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 display_error() {
     echo "Erreur: $1"

@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 is_package_installed() {
 	dpkg -l "$1" > /dev/null
 }

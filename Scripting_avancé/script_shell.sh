@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 current_date=$(date +%Y-%m-%d_%H:%M)
 

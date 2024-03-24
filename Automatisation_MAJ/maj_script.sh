@@ -1,4 +1,5 @@
 #!/bin/bash# 
+set -euo pipefail
 
 check_updates() {
 echo "Recherche des mises à jour disponibles..."
